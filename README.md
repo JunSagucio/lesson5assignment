@@ -1,5 +1,5 @@
-# 🏠 Home Network Documentation  
-**Name:** Jun Santos III Sagucio  
+# Home Network Documentation  
+Name: Jun Santos III Sagucio  
 
 ---
 
@@ -7,10 +7,10 @@
 
 My home network consists of a modem connected to a router, which provides internet access to wireless devices.
 
-**Structure:**
+Structure:
 Internet → Modem → Router → Devices (WiFi)
 
-**Connected Devices:**
+Connected Devices:
 - Laptop (WiFi)
 - Smartphone (WiFi)
 
@@ -18,7 +18,7 @@ Internet → Modem → Router → Devices (WiFi)
 
 ## 2. Logical Topology
 
-The network uses a **star topology**, where all devices connect to a central router.
+The network uses a star topology, where all devices connect to a central router.
 
 - The router manages communication between devices  
 - All traffic passes through the router before reaching the internet  
@@ -45,15 +45,15 @@ The network uses a **star topology**, where all devices connect to a central rou
 ## 4. Network Devices and Services
 
 ### Devices:
-- **Modem** – Connects to the Internet Service Provider (ISP)  
-- **Router** – Manages and distributes the network  
-- **Laptop** – Personal device connected via WiFi  
-- **Smartphone** – Mobile device connected via WiFi  
+- Modem – Connects to the Internet Service Provider (ISP)  
+- Router – Manages and distributes the network  
+- Laptop – Personal device connected via WiFi  
+- Smartphone – Mobile device connected via WiFi  
 
 ### Services:
-- **DHCP (Dynamic Host Configuration Protocol)** – Assigns IP addresses automatically  
-- **DNS (Domain Name System)** – Resolves website names to IP addresses  
-- **WiFi** – Wireless connectivity  
+- DHCP  – Assigns IP addresses automatically  
+- DNS  – Resolves website names to IP addresses  
+- WiFi – Wireless connectivity  
 
 ---
 
@@ -76,7 +76,7 @@ The network uses a **star topology**, where all devices connect to a central rou
 
 ---
 
-## 6. Credential Security Method 🔐
+## 6. Credential Security Method 
 
 To securely store login credentials:
 
@@ -89,14 +89,13 @@ To securely store login credentials:
 ---
 
 ## 7. Network Topology Diagram
+Internet
+        
+Modem
+        
+Router
 
-    Internet
-        │
-      Modem
-        │
-      Router
-      /    \
- Laptop   Smartphone
+Laptop  Smartphone
 
 ---
 
