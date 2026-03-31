@@ -95,7 +95,7 @@ Modem
         
 Router
 
-Laptop  Smartphone
+Laptop and Smartphone
 
 ---
 
