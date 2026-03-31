@@ -13,6 +13,8 @@ Internet → Modem → Router → Devices (WiFi)
 Connected Devices:
 - Laptop (WiFi)
 - Smartphone (WiFi)
+<img width="1536" height="1024" alt="Jun&#39;s Home Network Physical Topology" src="https://github.com/user-attachments/assets/068c87dc-ead5-4498-a357-36ff5ff2da3c" />
+
 
 ---
 
@@ -23,6 +25,9 @@ The network uses a star topology, where all devices connect to a central router.
 - The router manages communication between devices  
 - All traffic passes through the router before reaching the internet  
 - Devices communicate through the router  
+<img width="1536" height="1024" alt="Jun&#39;s Home Network Logical Topology" src="https://github.com/user-attachments/assets/0f94a116-6e97-48d7-9ff6-e0da12e3ad68" />
+
+
 
 ---
 
@@ -32,12 +37,12 @@ The network uses a star topology, where all devices connect to a central router.
 
 | Device       | IP Address    | MAC Address        | Connection |
 |--------------|--------------|--------------------|------------|
-| Router       | 192.168.1.1  | AA:BB:CC:DD:EE:01  | Ethernet   |
-| Laptop       | 192.168.1.10 | AA:BB:CC:DD:EE:02  | WiFi       |
-| Smartphone   | 192.168.1.11 | AA:BB:CC:DD:EE:03  | WiFi       |
+| Router       | 192.168.0.1  | AA:BB:CC:DD:EE:01  | Ethernet   |
+| Laptop       | 192.168.0.2  | AA:BB:CC:DD:EE:02  | WiFi       |
+| Smartphone   | 192.168.0.3  | AA:BB:CC:DD:EE:03  | WiFi       |
 
 - Subnet Mask: 255.255.255.0  
-- Default Gateway: 192.168.1.1  
+- Default Gateway: 192.168.0.1  
 - IP Assignment: DHCP (Automatic)
 
 ---
@@ -60,8 +65,8 @@ The network uses a star topology, where all devices connect to a central router.
 ## 5. Device Configurations
 
 ### Router Configuration:
-- SSID: HomeWiFi  
-- Security Type: WPA2/WPA3  
+- SSID: HomeNetwork
+- Security Type: WPA2-PSK
 - DHCP: Enabled  
 - Firewall: Enabled  
 
