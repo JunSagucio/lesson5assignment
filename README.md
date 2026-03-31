@@ -80,7 +80,7 @@ The network uses a **star topology**, where all devices connect to a central rou
 
 To securely store login credentials:
 
-- Passwords are stored using a password manager (Bitwarden)  
+- Passwords are stored using a password manager (Google Password Manager)  
 - Strong passwords are used (mix of uppercase, lowercase, numbers, and symbols)  
 - Default router username and password are changed  
 - Credentials are not shared with others  
