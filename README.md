@@ -15,7 +15,6 @@ Connected Devices:
 - Smartphone (WiFi)
 <img width="1536" height="1024" alt="Jun&#39;s Home Network Physical Topology" src="https://github.com/user-attachments/assets/068c87dc-ead5-4498-a357-36ff5ff2da3c" />
 
-
 ---
 
 ## 2. Logical Topology
@@ -26,8 +25,6 @@ The network uses a topology, where all devices connect to a central router.
 - All traffic passes through the router before reaching the internet  
 - Devices communicate through the router  
 <img width="1536" height="1024" alt="Jun&#39;s Home Network Logical Topology" src="https://github.com/user-attachments/assets/0f94a116-6e97-48d7-9ff6-e0da12e3ad68" />
-
-
 
 ---
 
