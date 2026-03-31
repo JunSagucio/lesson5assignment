@@ -20,7 +20,7 @@ Connected Devices:
 
 ## 2. Logical Topology
 
-The network uses a star topology, where all devices connect to a central router.
+The network uses a topology, where all devices connect to a central router.
 
 - The router manages communication between devices  
 - All traffic passes through the router before reaching the internet  
@@ -106,5 +106,5 @@ Laptop and Smartphone
 
 ##  Summary
 
-This home network uses a simple star topology with a router as the central device. It provides secure and efficient internet access to connected devices using DHCP and WiFi, while maintaining security through strong credentials and firewall protection.
+This home network uses a simple topology with a router as the central device. It provides secure and efficient internet access to connected devices using DHCP and WiFi, while maintaining security through strong credentials and firewall protection.
 
